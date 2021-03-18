@@ -11,9 +11,7 @@ export default function LayoutPingo(props) {
         <>
           <CookieConsent />
 
-          <div className="main-container-pingo">
-            {props.children}
-          </div>
+          <div className="main-container-pingo">{props.children}</div>
           <Footer />
           <ScrollTop />
         </>

@@ -140,7 +140,9 @@ export default function Footer() {
         <div className="d-flex flex-column col-12 g-0 pt-5 ps-3 ps-md-0 text-md-center">
           ©2021 The Routing Company <br />
           All Rights Reserved
-          <a href="https://theroutingcompany.com/privacypolicy">Terms and Conditions | Privacy Policy</a>
+          <a href="https://theroutingcompany.com/privacypolicy">
+            Terms and Conditions | Privacy Policy
+          </a>
         </div>
       </div>
     </footer>
