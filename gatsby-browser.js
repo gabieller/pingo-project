@@ -38,13 +38,13 @@ const LoadingElement = ({ children }) => {
   )
 }
 
-export const wrapPageElement = ({ element, props }) => {
+export const wrapPageElement = ({ element }) => {
   return (
     <>
       <Helmet>
         <meta name="Transportation that moves with you" charSet="utf-8" />
-        <title>The Routing Company</title>
-        <link rel="canonical" href="https://theroutingcompany.com/" />
+        <title>Pingo</title>
+        <link rel="canonical" href="https://pingo.com/" />
       </Helmet>
 
       <LoadingElement>{element}</LoadingElement>
