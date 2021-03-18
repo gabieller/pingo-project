@@ -1,0 +1,42 @@
+.logo-header {
+  max-width: 230px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .navbar .navbar-brand {
+    max-width: 250px;
+  }
+}
+
+.collapse-button {
+  z-index: 1032;
+  right: 1rem;
+  left: unset;
+  top: 1.7rem;
+  outline: none !important;
+}
+
+.btn-black-header {
+  background-color: #333333 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  width: 180px;
+  height: 35px;
+}
+
+.btn-black:focus {
+  outline-color: #a7a7a7;
+}
+
+#header .back-drop {
+  background: rgba(63, 61, 61, 0.692);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2999;
+}

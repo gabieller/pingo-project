@@ -1,0 +1,17 @@
+#demo-components .back-drop {
+    background: rgba(63, 61, 61, 0.692);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2999;
+  }
+
+  #demo-component .btn-black-demo {
+      background-color: #333333 !important;
+      color: #fff !important;
+      border-radius: 0 !important;
+      width: 183px;
+      height: 36px;
+  }

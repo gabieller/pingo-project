@@ -1,0 +1,24 @@
+  #toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 0px;
+    z-index: 98;
+    cursor: pointer;
+    visibility: hidden;
+    transform: scaleY(0);
+    transition: .25s linear;
+}
+
+#toTopBtn.visible {
+  visibility: visible;
+  transform: scaleY(1);
+}
+
+.button {
+  background-color: #ccccff;
+  border-radius: 50%
+}
+
+.button:hover {
+  background-color: #332288;
+}

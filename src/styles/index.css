@@ -1,0 +1,76 @@
+#index {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+}
+
+#index > .title {
+  position: relative;
+  padding-left: 0 !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#index > .title > .title-content {
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  position: relative;
+  transform: translateY(30px) 3s;
+}
+
+#index > .title > .animation-container,
+#index > .title > .animation-container > .fallback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #e4e1e5;
+}
+
+#index > .title > .action-buttons {
+  margin-top: 2rem !important;
+}
+
+#index .title-green {
+  color: #58968a;
+}
+
+
+#index .btn-black-modal {
+  background-color: #333333;
+  color: #fff;
+  border-radius: 0;
+  width: 618px;
+  height: 45px;
+}
+
+#index .btn-black-modal-mobile {
+  background-color: #333333;
+  color: #fff;
+  border-radius: 0;
+  width: 200px;
+  height: 45px;
+}
+
+
+#index .card {
+  background-color: #ffffff;
+}
+
+.show {
+  display: block !important;
+}
+
+#index .back-drop {
+  background: rgba(63, 61, 61, 0.692);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2999;
+}
+
+

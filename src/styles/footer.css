@@ -1,0 +1,58 @@
+#footer,
+#footer-mobile {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Roboto";
+  text-decoration: none;
+}
+
+#footer .links > div {
+  padding-bottom: 1vw;
+}
+
+#footer .form-control {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+}
+
+#footer hr {
+  height: 1px;
+  background-color: #ffffff40;
+}
+
+#footer a{
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 38px;
+}
+
+@media (min-width: 768px) {
+  .trclogo {
+    width: 10%;
+  }
+}
+
+/* @media (min-width: 768px) {
+  .app.badge {
+    width: 10%;
+  }
+} */
+
+@media (min-width: 768px) {
+  .pingologo {
+    width: 15%;
+  }
+}
+
+@media (max-width: 767px) {
+  .trclogo {  
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .pingologo {
+    width: 60%;
+  }
+}

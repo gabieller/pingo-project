@@ -1,0 +1,107 @@
+.btn-black {
+  background-color: #333333 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+}
+
+.btn-black:focus {
+  outline-color: #a7a7a7;
+}
+
+.btn-white {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 0 !important;
+}
+
+.btn-white:focus {
+  outline-color: #a7a7a7;
+}
+
+#demo-component .btn-action {
+  min-width: 183px;
+}
+
+.text-hover:hover > span {
+  transition: all 0.5s ease-in-out;
+  color: #58968a;
+}
+
+.underline-right {
+  position: relative;
+}
+
+.underline-right:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #58968a;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.text-hover:hover > .underline-right:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.green {
+  color: #58968a;
+}
+
+.section {
+  padding: min(30vh, 130px) 0;
+}
+
+.section-mini {
+  padding: min(10vh, 70px) 0;
+}
+.main-container {
+  padding-top: 100px;
+}
+
+body {
+  font-family: "Roboto";
+  --line-height: 1.5;
+}
+
+hr {
+  opacity: 1;
+}
+
+h1 {
+  font-family: "Poppins";
+  line-height: var(--line-height);
+}
+
+h2 {
+  font-family: "Poppins";
+  line-height: var(--line-height);
+}
+
+h3 {
+  line-height: var(--line-height);
+}
+
+textarea {
+  resize: none;
+}
+
+/* Tablets */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobile Devices */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+}

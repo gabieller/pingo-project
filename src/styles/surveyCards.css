@@ -1,0 +1,81 @@
+#submit {
+  position: relative;
+}
+
+.card-content {
+  text-transform: none;
+  height: 220px;
+  width: 220px;
+}
+
+.card-content-mobile {
+  text-transform: none;
+}
+
+.card-modal-mobile {
+  height: 140px;
+  width: 115px;
+}
+
+
+.button-modal:hover {
+  background-color: #e4e1e5;
+}
+
+.card-content:hover {
+  background-color: #e4e1e5;
+}
+
+.go-back {
+  color: #c3cbcd;
+}
+
+.wrap-mockup {
+  position: relative;
+}
+
+.mockup {
+  width: 390px;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+
+
+.mockup-mobile {
+  width: 160px;
+  position: fixed;
+  top: 65%;
+  right: 30%;
+}
+
+.submit {
+  font-family: Helvetica;
+  color: #707070;
+  font-size: 12px;
+  padding-top: 12rem;
+}
+
+.submit-mobile {
+  font-family: Helvetica;
+  color: #707070;
+  font-size: 12px;
+}
+
+.btn {
+  color: #c3cbcd;
+}
+
+.box-confirm {
+  background-color: #e4e1e5;
+}
+
+.goback-btn {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
+
+.text-confirm {
+  text-transform: none;
+}

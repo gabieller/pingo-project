@@ -1,0 +1,39 @@
+.card-text {
+  font-size: 0.8rem;
+}
+
+.card-pic {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-pic > img {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  width: 0;
+}
+
+.card-img-top  { 
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.card-img-mobile {
+  object-fit: cover;
+}
+
+#team-card .card:hover {
+  background-color: #e4e1e5;
+}
+
+#team-card .card-body {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+  @media (min-width: 1200px) {
+    #team-card .card-body {
+      font-size: 4rem;
+    }
+  }

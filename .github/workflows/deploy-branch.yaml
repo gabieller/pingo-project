@@ -1,0 +1,25 @@
+name: Deploy Website
+
+on:
+  push:
+    branches-ignore:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Deploying to surge
+    steps:
+      - uses: actions/checkout@v1
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+      - name: Deploy for branch
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - run: npm install
+      - run: npm run build
+      - run: npx surge ./public ${{ steps.extract_branch.outputs.branch }}.wary-metal.surge.sh --token ${{ secrets.SURGE_TOKEN }}

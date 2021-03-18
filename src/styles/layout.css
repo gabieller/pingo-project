@@ -1,0 +1,36 @@
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  margin: auto !important;
+}
+
+.loading {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fcfcfe;
+  z-index: 1033;
+  visibility: hidden;
+}
+
+.loading.open, .loading-pingo.open {
+  visibility: visible;
+}
+
+/* .loading-pingo {
+  background-color: #8ec999;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1033;
+  visibility: hidden;
+} */

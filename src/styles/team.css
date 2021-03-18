@@ -1,0 +1,14 @@
+#team {
+  background-color: #F5F4F5;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+}
+
+.card {
+  background-color: #F5F4F5 ;
+}
+
+
