@@ -21,7 +21,7 @@ import ridepingo from "../images/ridepingo.png"
 import ridepingo_mobile from "../images/ridepingo_mobile.png"
 import womanillustration from "../images/woman-illustration.png"
 
-import "../styles/pingo.css"
+import "../styles/index.css"
 
 //TODO: fix card size large screen
 export default function Pingo(props) {
