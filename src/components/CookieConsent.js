@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import CookieConsent from "react-cookie-consent"
 
 export default function Cookies() {
@@ -11,9 +10,9 @@ export default function Cookies() {
     >
       We use cookies on our website to see how you interact with it. By
       accepting, you agree to our use of such cookies.{" "}
-      <Link to="/privacypolicy" style={{ color: "black" }}>
+      <a href="https://theroutingcompany.com/privacypolicy" style={{ color: "black" }}>
         Privacy Policy
-      </Link>
+      </a>
     </CookieConsent>
   )
 }

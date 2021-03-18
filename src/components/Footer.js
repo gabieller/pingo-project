@@ -23,9 +23,9 @@ export default function Footer() {
           <div className="col-12 col-md-5 px-3 px-md-0">
             <div className="row g-0">
               <div className="col-6 col-md-12">
-                <Link to="/">
+                <a to="https://theroutingcompany.com/">
                   <img src={trclogo} alt="Logo TRC" className="trclogo" />
-                </Link>
+                </a>
               </div>
               <div className="col-6 col-md-12 py-md-3 d-flex align-middle">
                 <Button
@@ -70,7 +70,7 @@ export default function Footer() {
             <hr className="d-md-none" />
             <div className="row g-0 py-md-5">
               <div className="col-6 col-md-12 py-3">
-                <Link to="/pingo">
+                <Link to="/">
                   <img src={pingologo} alt="Logo PINGO" className="pingologo" />
                 </Link>
               </div>
@@ -107,21 +107,21 @@ export default function Footer() {
             <div className="row g-0 links-row px-0">
               <div className="col-xl-5 col-lg-4 pb-md-3 links">
                 <div>COMPANY</div>
-                <Link to="/">
+                <a href="https://theroutingcompany.com/">
                   <div>Home</div>
-                </Link>
-                <Link to="/team">
+                </a>
+                <a href="https://theroutingcompany.com/team">
                   <div>Team</div>
-                </Link>
-                <Link to="/whytrc">
+                </a>
+                <a href="https://theroutingcompany.com/whytrc">
                   <div>Why TRC</div>
-                </Link>
-                <Link to="/contact">
+                </a>
+                <a href="https://theroutingcompany.com/contact">
                   <div>Contact</div>
-                </Link>
-                <Link to="/blog">
+                </a>
+                <a href="https://theroutingcompany.com/blog">
                   <div>Blog</div>
-                </Link>
+                </a>
                 <a
                   href="https://jobs.lever.co/theroutingcompany"
                   target="_blank"
@@ -140,7 +140,7 @@ export default function Footer() {
         <div className="d-flex flex-column col-12 g-0 pt-5 ps-3 ps-md-0 text-md-center">
           ©2021 The Routing Company <br />
           All Rights Reserved
-          <Link to="/privacypolicy">Terms and Conditions | Privacy Policy</Link>
+          <a href="https://theroutingcompany.com/privacypolicy">Terms and Conditions | Privacy Policy</a>
         </div>
       </div>
     </footer>
