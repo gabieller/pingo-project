@@ -2,7 +2,7 @@
 
 ## Deploy instructions
 
-BLABLABLA 
+BLABLABLA
 
 ```bash
 npm install
