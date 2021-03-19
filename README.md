@@ -1,4 +1,4 @@
-# pingo.com
+# https://www.ridepingo.com/
 
 ## Deploy instructions
 

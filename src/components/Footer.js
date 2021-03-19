@@ -109,19 +109,39 @@ export default function Footer() {
             <div className="row g-0 links-row px-0">
               <div className="col-xl-5 col-lg-4 pb-md-3 links">
                 <div>COMPANY</div>
-                <a href="https://theroutingcompany.com/">
+                <a
+                  href="https://theroutingcompany.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div>Home</div>
                 </a>
-                <a href="https://theroutingcompany.com/team">
+                <a
+                  href="https://theroutingcompany.com/team"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div>Team</div>
                 </a>
-                <a href="https://theroutingcompany.com/whytrc">
+                <a
+                  href="https://theroutingcompany.com/whytrc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div>Why TRC</div>
                 </a>
-                <a href="https://theroutingcompany.com/contact">
+                <a
+                  href="https://theroutingcompany.com/contact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div>Contact</div>
                 </a>
-                <a href="https://theroutingcompany.com/blog">
+                <a
+                  href="https://theroutingcompany.com/blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <div>Blog</div>
                 </a>
                 <a
@@ -142,7 +162,11 @@ export default function Footer() {
         <div className="d-flex flex-column col-12 g-0 pt-5 ps-3 ps-md-0 text-md-center">
           ©2021 The Routing Company <br />
           All Rights Reserved
-          <a href="https://theroutingcompany.com/privacypolicy">
+          <a
+            href="https://theroutingcompany.com/privacypolicy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Terms and Conditions | Privacy Policy
           </a>
         </div>

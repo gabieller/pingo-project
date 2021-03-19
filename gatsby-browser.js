@@ -42,9 +42,9 @@ export const wrapPageElement = ({ element }) => {
   return (
     <>
       <Helmet>
-        <meta name="Transportation that moves with you" charSet="utf-8" />
+        <meta name="Transit that moves with you" charSet="utf-8" />
         <title>Pingo</title>
-        <link rel="canonical" href="https://pingo.com/" />
+        <link rel="canonical" href="https://www.ridepingo.com/" />
       </Helmet>
 
       <LoadingElement>{element}</LoadingElement>
