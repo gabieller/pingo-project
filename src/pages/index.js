@@ -6,18 +6,18 @@ import LayoutPingo from "../components/LayoutPingo"
 import Responsive from "../components/Responsive"
 import CanvasPingo from "../components/CanvasPingo"
 
-import trclogo from "../images/trc-logo-black.png"
+import appstorebadge from "../images/app-store-badge.png"
 import arrowright from "../images/arrow-right-black.svg"
 import arrowrightmobile from "../images/arrow-right-black-mobile.svg"
-import pingologowhite from "../images/pingologowhite.png"
-import medium from "../images/medium_black.svg"
-import linkedin from "../images/linkedin_black.svg"
-import twitter from "../images/twitter_black.svg"
 import googleplaybadge from "../images/google-play-badge.png"
-import appstorebadge from "../images/app-store-badge.png"
+import linkedin from "../images/linkedin_black.svg"
+import medium from "../images/medium_black.svg"
 import mockup_ridepingo from "../images/mockup-ridepingo.png"
+import pingologowhite from "../images/pingologowhite.png"
 import ridepingo from "../images/ridepingo.png"
 import ridepingo_mobile from "../images/ridepingo_mobile.png"
+import trclogo from "../images/trc-logo-black.png"
+import twitter from "../images/twitter_black.svg"
 import womanillustration from "../images/woman-illustration.png"
 
 import "../styles/index.css"
@@ -29,7 +29,6 @@ export default function Pingo(props) {
       window.removeEventListener("scroll", scrollRotate)
     }
   })
-
 
   function scrollRotate() {
     let ridepingo = document.getElementById("ridePingo")
