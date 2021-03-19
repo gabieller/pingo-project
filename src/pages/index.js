@@ -1,6 +1,5 @@
 import React, { useRef } from "react"
 import { useEffectOnlyOnce } from "../utils/hooks"
-import { Link } from "gatsby"
 import Button from "@material-ui/core/Button"
 
 import LayoutPingo from "../components/LayoutPingo"
@@ -23,7 +22,6 @@ import womanillustration from "../images/woman-illustration.png"
 
 import "../styles/index.css"
 
-//TODO: fix card size large screen
 export default function Pingo(props) {
   useEffectOnlyOnce(() => {
     window.addEventListener("scroll", scrollRotate)
@@ -32,7 +30,6 @@ export default function Pingo(props) {
     }
   })
 
-  // window.addEventListener("scroll", scrollRotate)
 
   function scrollRotate() {
     let ridepingo = document.getElementById("ridePingo")
@@ -232,8 +229,8 @@ export default function Pingo(props) {
                 <div className="announcements-5 p-5 d-flex flex-column">
                   <div className="announcements-text fs-5">
                     <div>
-                      I love Pingo, and I love the impact it has on my city - I
-                      definitely recommend it!”
+                      "I love Pingo because I never have to worry about finding
+                      a parking spot ever again"
                     </div>
                     <div className="pt-3 announcements-name">
                       Sharon S., <br /> Pingo rider
@@ -242,7 +239,10 @@ export default function Pingo(props) {
                 </div>
                 <div className="announcements-6 p-5 d-flex flex-column">
                   <div className="announcements-text fs-5">
-                    <div>“It is very easy to use, and super reliable.”</div>
+                    <div>
+                      "I love Pingo because it’s way easier to get around my
+                      city at the right price"
+                    </div>
                     <div className="pt-5 announcements-name">
                       Onika P., <br /> Pingo rider
                     </div>
@@ -433,26 +433,30 @@ export default function Pingo(props) {
 
                   <div className="announcements-2-mobile p-5 d-flex flex-column ">
                     <div className="announcements-text fs-6">
-                      <div>“Pingo helps me save 20 minutes every day!</div>
+                      <div>
+                        “I love Pingo because I never have to worry about
+                        finding a parking spot ever again"
+                      </div>
                       <div className="pt-3 announcements-name">
-                        Savannah W., <br /> Pingo rider
+                        Sharon S., <br /> Pingo rider
                       </div>
                     </div>
                   </div>
                   <div className="announcements-3-mobile p-5 d-flex flex-column">
                     <div className="announcements-text fs-6">
                       <div>
-                        “It’s a huge improvement on my commute. Love it!”
+                        "I love Pingo because it’s way easier to get around my
+                        city at the right price"
                       </div>
                       <div className="pt-3 announcements-name">
-                        Jason O., <br /> Pingo rider
+                        Onika P., <br /> Pingo rider
                       </div>
                     </div>
                   </div>
                   <div className="announcements-4-mobile p-5 d-flex flex-column">
                     <div className="announcements-text fs-6">
                       <div>
-                        “I wish I had discovered Pingo before. It’s incredible!”
+                        "Pingo makes my commute cheaper and less stressful."
                       </div>
                       <div className="pt-3 announcements-name ">
                         Maria B., <br /> Pingo rider
