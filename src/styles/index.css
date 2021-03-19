@@ -3,6 +3,7 @@
   width: 100%;
   height: auto;
   scroll-behavior: smooth;
+  background-color: #f5f4f5;
 }
 
 #pingo-header {
@@ -111,8 +112,8 @@
   width: 355px;
   height: 250px;
   background-color: #ffffff;
-  left: 470px;
-  top: 130px;
+  left: 350px;
+  top: 120px;
   transition: transform 330ms ease-in-out;
 }
 
@@ -128,7 +129,7 @@
   transform: translate3d(0px, 0px, 0px) rotate(-15deg);
   background-color: #ebe8e6;
   right: 150px;
-  top: 20px;
+  top: 30px;
   transition: transform 330ms ease-in-out;
 }
 
@@ -143,7 +144,7 @@
   height: 250px;
   transform: translate3d(0px, 0px, 0px) rotate(10deg);
   background-color: #f4b96b;
-  right: -20px;
+  right: -90px;
   bottom: 50px;
   transition: transform 330ms ease-in-out;
 }
@@ -159,8 +160,8 @@
   height: 250px;
   transform: translate3d(0px, 0px, 0px) rotate(-8deg);
   background-color: #ccccff;
-  left: 650px;
-  bottom: -20px;
+  left: 550px;
+  bottom: -50px;
   transition: transform 330ms ease-in-out;
 }
 
@@ -179,8 +180,8 @@
   height: 180px;
   background-color: #ccccff;
   transform: translate3d(0px, 0px, 0px) rotate(17deg);
-  left: 0px;
-  top: 200px;
+  left: -20px;
+  top: 230px;
 }
 
 .announcements-2-mobile {
@@ -189,7 +190,7 @@
   height: 180px;
   background-color: #f4b96b;
   transform: translate3d(0px, 0px, 0px) rotate(-15deg);
-  left: 200px;
+  left: 150px;
   top: 180px;
 }
 
@@ -199,7 +200,7 @@
   height: 180px;
   background-color: #ebe8e6;
   transform: translate3d(0px, 0px, 0px) rotate(-20deg);
-  left: 30px;
+  left: 10px;
   bottom: 20px;
 }
 
@@ -219,7 +220,6 @@
 .somewhere-illustration-pingo {
   position: absolute;
   bottom: -260px;
-  left: 960px;
+  left: 890px;
+  width: 300px;
 }
-
-

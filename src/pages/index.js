@@ -181,7 +181,7 @@ export default function Pingo(props) {
               </div>
             </div>
           </div>
-          <div id="announcements-card" className="section-mini">
+          <div id="announcements-card" className="container section-mini">
             <div className="container">
               <div className=" announcements-title">
                 <h3 className="green fs-2">The talk of the town</h3>
@@ -250,25 +250,27 @@ export default function Pingo(props) {
               </div>
             </div>
           </div>
-          <div className="container section">
-            <h3 className="text-center text-hover fs-1">
-              Are you <span className="underline-right text-green">ready</span>{" "}
-              to have the whole
-              <br /> city in the palm of your hand?
-            </h3>
 
-            <div id="box-pingo" className="section">
-              <div className="container box-shadow shadow-lg ">
-                <div className="d-flex flex-row align-items-center justify-content-center">
-                  <div className="col-4">
-                    <img src={mockup_ridepingo} alt="Ride Pingo"></img>
-                  </div>
-                  <div className="col-7 px-5">
-                    <h2>
-                      Download <br /> <b>Pingo Driver</b>
-                    </h2>
-                    <div className="col-8">
-                      <div className="d-flex flex-row">
+          <div className="bg-white">
+            <div className="container section">
+              <h3 className="text-center text-hover fs-1">
+                Are you{" "}
+                <span className="underline-right text-green">ready</span> to
+                have the whole
+                <br /> city in the palm of your hand?
+              </h3>
+
+              <div id="box-pingo" className="section">
+                <div className="container box-shadow shadow-lg ">
+                  <div className="d-flex flex-row align-items-center justify-content-center py-5">
+                    <div className="col-4">
+                      <img src={mockup_ridepingo} alt="Ride Pingo"></img>
+                    </div>
+                    <div className="col-md-5 col-lg-7 ps-md-5">
+                      <h2>
+                        Download <br /> <b>Pingo Driver</b>
+                      </h2>
+                      <div className="col-6 col-6 d-md-flex">
                         <a
                           href="https://play.google.com/store/apps/details?id=com.theroutingcompany.pingo.driver"
                           target="_blank"
@@ -296,14 +298,14 @@ export default function Pingo(props) {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-md-1 wrap-illustration-pingo">
-                  <img
-                    src={womanillustration}
-                    alt="Woman Standing"
-                    className="somewhere-illustration-pingo"
-                    width="450px"
-                  />
+                  <div className="col-md-1 wrap-illustration-pingo">
+                    <img
+                      src={womanillustration}
+                      alt="Woman Standing"
+                      className="somewhere-illustration-pingo"
+                      width="450px"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -419,7 +421,7 @@ export default function Pingo(props) {
             <div id="announcements-card" className="section">
               <div className="container">
                 <div className="announcements-list">
-                  <div className="announcements-1-mobile p-5 d-flex flex-column ">
+                  <div className="announcements-1-mobile p-4 d-flex flex-column ">
                     <div className="announcements-text fs-6">
                       <div>
                         “The most fun <br /> app to use!”
@@ -430,7 +432,7 @@ export default function Pingo(props) {
                     </div>
                   </div>
 
-                  <div className="announcements-2-mobile p-5 d-flex flex-column ">
+                  <div className="announcements-2-mobile p-4 d-flex flex-column ">
                     <div className="announcements-text fs-6">
                       <div>
                         “I love Pingo because I never have to worry about
@@ -441,7 +443,7 @@ export default function Pingo(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="announcements-3-mobile p-5 d-flex flex-column">
+                  <div className="announcements-3-mobile p-4 d-flex flex-column">
                     <div className="announcements-text fs-6">
                       <div>
                         "I love Pingo because it’s way easier to get around my
@@ -452,7 +454,7 @@ export default function Pingo(props) {
                       </div>
                     </div>
                   </div>
-                  <div className="announcements-4-mobile p-5 d-flex flex-column">
+                  <div className="announcements-4-mobile p-4 d-flex flex-column">
                     <div className="announcements-text fs-6">
                       <div>
                         "Pingo makes my commute cheaper and less stressful."
@@ -472,9 +474,9 @@ export default function Pingo(props) {
                 to have the whole city in the palm of your hand
               </h2>
             </div>
-            <div className="row pb-5">
+            <div className="row pt-5 pb-5">
               <div className="container box-shadow shadow col-9">
-                <div className="d-flex flex-column pt-3 pb-5">
+                <div className="d-flex flex-column pt-3 pb-5 px-4">
                   <div>
                     <img
                       src={mockup_ridepingo}

@@ -53,15 +53,25 @@
 }
 
 .section {
-  padding: min(30vh, 130px) 0;
+  padding-top: min(8rem, 140px);
+  padding-bottom: min(4rem, 70px);
 }
 
 .section-mini {
-  padding: min(10vh, 70px) 0;
+  padding-top: min(6rem, 60px);
+  padding-bottom: min(3rem, 30px);
+}
+
+.text-margin {
+  padding-top: min(4rem, 70px);
 }
 .main-container {
   padding-top: 100px;
 }
+
+/* .main-title {
+  font-size: 2.75rem;
+} */
 
 body {
   font-family: "Roboto";
@@ -90,18 +100,3 @@ textarea {
   resize: none;
 }
 
-/* Tablets */
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-}
-
-/* Mobile Devices */
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 1.8rem;
-  }
-}

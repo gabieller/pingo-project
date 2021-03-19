@@ -74,31 +74,33 @@ export default function Footer() {
                   <img src={pingologo} alt="Logo PINGO" className="pingologo" />
                 </Link>
               </div>
-              <div className="col-6 col-md-4 d-md-flex justify-content-between">
-                <Button
-                  className="btn btn-link px-0"
-                  href="https://play.google.com/store/apps/details?id=com.theroutingcompany.pingo.driver"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={googleplaybadge}
-                    alt="Google Play Download"
-                    className="app-badge img-fluid"
-                  />
-                </Button>
-                <Button
-                  className="btn btn-link px-0"
-                  href="https://apps.apple.com/in/app/pingo-rider/id1536281958"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={appstorebadge}
-                    alt="App Store Download"
-                    className="app-badge img-fluid"
-                  />
-                </Button>
+              <div className="col-6 col-md-12 py-3">
+                <div className="d-flex flex-column flex-md-row col-md-6">
+                  <Button
+                    className="btn btn-link px-0"
+                    href="https://play.google.com/store/apps/details?id=com.theroutingcompany.pingo.driver"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={googleplaybadge}
+                      alt="Google Play Download"
+                      className="app-badge img-fluid"
+                    />
+                  </Button>
+                  <Button
+                    className="btn btn-link px-md-4"
+                    href="https://apps.apple.com/in/app/pingo-rider/id1536281958"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={appstorebadge}
+                      alt="App Store Download"
+                      className="app-badge img-fluid"
+                    />
+                  </Button>
+                </div>
               </div>
             </div>
             <hr className="d-md-none" />
