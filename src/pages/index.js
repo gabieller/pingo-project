@@ -100,7 +100,7 @@ export default function Pingo(props) {
                 </div>
 
                 <div className="col-9">
-                  <a href="http://wary-metal.surge.sh/">
+                  <a href="https://theroutingcompany.com">
                     <div className="d-flex flex-row-reverse row-trc-logo user-select-none">
                       <img className="trc-logo" src={trclogo} alt="TRC logo" />
                       <img src={arrowright} alt="Go to TRC" />
