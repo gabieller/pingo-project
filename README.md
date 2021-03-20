@@ -2,9 +2,8 @@
 
 ## Deploy instructions
 
-BLABLABLA
-
+To manually deploy, simply run: 
 ```bash
 npm install
-npm run build
+npm run deploy
 ```
