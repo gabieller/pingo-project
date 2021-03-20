@@ -1,9 +1,9 @@
-# https://www.theroutingcompany.com
+# https://www.ridepingo.com
 
 ## Deploy instructions
 
 - Set the source of the Github Pages to the branch `gh-pages /(root)`
-- Set the custom domain in the for the desired domain: `theroutingcompany.com`
+- Set the custom domain in the for the desired domain: `ridepingo.com`
 - Make sure you have git installed in your computer.
 
 You can deploy to production in two ways:
