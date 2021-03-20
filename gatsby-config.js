@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/pingo-project", //REMOVE before deploying to production
   siteMetadata: {
     title: `Pingo`,
     siteUrl: `https://www.ridepingo.com/`,
